@@ -36,7 +36,7 @@ const App: React.FC = () => {
           <div className="space-y-6">
             <header className="mb-8">
               <h1 className="text-3xl font-bold text-gray-900">Tableau de bord</h1>
-              <p className="text-gray-600 mt-2">Bienvenue sur CerfaFlow, l'outil de gestion de vos arrêtés de circulation.</p>
+              <p className="text-gray-600 mt-2">Bienvenue sur CerFlow, l'outil de gestion de vos arrêtés de circulation.</p>
             </header>
 
             {!profile ? (

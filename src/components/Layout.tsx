@@ -32,7 +32,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentView, onChangeView }) 
           <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-xl">C</span>
           </div>
-          <span className="font-bold text-xl text-gray-900">CerfaFlow</span>
+          <span className="font-bold text-xl text-gray-900">CerFlow</span>
         </div>
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <X /> : <Menu />}
@@ -50,7 +50,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentView, onChangeView }) 
           <div className="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center shadow-lg shadow-brand-200">
             <span className="text-white font-bold text-2xl">C</span>
           </div>
-          <span className="font-bold text-2xl text-gray-900 tracking-tight">CerfaFlow</span>
+          <span className="font-bold text-2xl text-gray-900 tracking-tight">CerFlow</span>
         </div>
 
         <nav className="flex-1 px-4 py-4 space-y-1">
